@@ -8,9 +8,16 @@ const config: Config = {
   ],
   theme: {
     extend: {
+
+      screens:{
+       "xs":{"min":"360px", "max":"740px"},
+       
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primary:"#000000",
+        secondary:"#FFFFFF"
       },
     },
   },
